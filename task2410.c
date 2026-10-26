@@ -336,17 +336,18 @@ int main()
 //                printf("Area of circle is: %.2f", area);
 //                return 0;
                   
-                  float math, hindi, bio, total;
-                  printf("Enter math marks: ");
-                  scanf("%f", &math);
-                  printf("Enter hindi marks: ");
-                  scanf("%f", &hindi);
-                  printf("Enter bio marks: ");
-                  scanf("%f", &bio);
-                  total = math + hindi + bio;
-                  printf("Total Marks is : %.2f", total );
-                  return 0;
-               
+//                  int math, hindi, bio;
+//                  float total;
+//                  printf("Enter math marks: ");
+//                  scanf("%d", &math);
+//                  printf("Enter hindi marks: ");
+//                  scanf("%d", &hindi);
+//                  printf("Enter bio marks: ");
+//                  scanf("%d", &bio);
+//                  total = math + hindi + bio;
+//                  printf("Total Marks is : %.2f", total );
+//                  return 0;
+//               
                 
 
 }
