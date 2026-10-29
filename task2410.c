@@ -347,7 +347,7 @@ int main()
 //                  total = math + hindi + bio;
 //                  printf("Total Marks is : %.2f", total );
 //                  return 0;
-//               
+               
                 
 
 }

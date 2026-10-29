@@ -126,13 +126,13 @@ int main()
 	int card, pin, balance;
 	printf("Enter card number:");
 	scanf("%d ", &card);
-		printf("Enter your pin:");
-		scanf("%d", &pin);
-	if( card == 9022 )
-	{
-		
 //		printf("Enter your pin:");
 //		scanf("%d", &pin);
+	if( card == 9022 )
+	{
+			printf("Enter your pin:");
+		scanf("%d", &pin);
+	
 		if ( pin == 1234)
 		{
 			
