@@ -139,17 +139,33 @@ int main()
 //			   printf("%d \n", sum);
 
 
-    int num, i = 1, fact = 1;
+//    int num, i = 1, fact = 1;
+//
+//    printf("Enter a number: ");
+//    scanf("%d", &num);
+//
+//    while(i <= num)
+//    {
+//        fact = fact * i;
+//        i++;
+//    }
+//    
+//    printf("%d \n", fact);
+ 
+    int num = 5, power = 3;
+    int result = 1, i = 1;
 
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    while(i <= num)
+    while (i <= power)
     {
-        fact = fact * i;
+        result = result * num;
         i++;
     }
-    
-    printf("%d \n", fact);
+
+    printf("Power = %d", result);
+
+    return 0;
+
+
+
  
 }
